@@ -1,6 +1,6 @@
 
 var r = false;
-var st;
+
 var sele="";
 var conatctName=""
 function f() {
@@ -10,13 +10,13 @@ function f() {
 		
 		if ( !r && c ){
 			
-			st = new Date(); 
+			console.log(new Date());
 			r=true;
 		}
 		if ( r && !c  ){
 			
 		r=false
-		console.log(st);
+		
 		console.log(new Date());
 		console.log("--------()---");
 		}
